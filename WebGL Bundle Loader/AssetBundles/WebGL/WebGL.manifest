@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2126012949
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: humvee
+      Dependencies: {}
+    Info_1:
+      Name: stryker
+      Dependencies: {}
