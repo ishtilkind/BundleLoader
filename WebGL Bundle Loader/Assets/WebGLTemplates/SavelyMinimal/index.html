@@ -8,6 +8,16 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%");
     </script>
+    <script>
+      window.UNITY_CONSTANTS = {
+		UNITY_WEB_NAME: "%UNITY_WEB_NAME%",
+		UNITY_WEBGL_LOADER_URL:  "%UNITY_WEBGL_LOADER_URL%",
+		UNITY_WEBGL_BUILD_URL: "%UNITY_WEBGL_BUILD_URL%",
+		UNITY_WIDTH: %UNITY_WIDTH%, 
+		UNITY_HEIGHT: %UNITY_HEIGHT%,
+		UNITY_CUSTOM_ASSET_BUNDLES_URL: "AssetBundles/WebGL"
+	  }
+    </script>
   </head>
   <body>
     <div id="gameContainer" style="width: %UNITY_WIDTH%px; height: %UNITY_HEIGHT%px; margin: auto"></div>
