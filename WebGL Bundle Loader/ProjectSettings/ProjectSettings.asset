@@ -544,12 +544,13 @@ PlayerSettings:
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Minimal
+  webGLTemplate: PROJECT:SavelyMinimal
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
   webGLUseWasm: 0
   webGLCompressionFormat: 1
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    13: UNITY_CUSTOM_ASSET_BUNDLES_URL
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
