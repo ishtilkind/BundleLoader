@@ -1,10 +1,22 @@
 ManifestFileVersion: 0
-CRC: 2126012949
+CRC: 3010727852
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: humvee
-      Dependencies: {}
+      Dependencies:
+        Dependency_0: humvee_common
     Info_1:
       Name: stryker
+      Dependencies: {}
+    Info_2:
+      Name: left_wheel
+      Dependencies:
+        Dependency_0: humvee_common
+    Info_3:
+      Name: right_wheel
+      Dependencies:
+        Dependency_0: humvee_common
+    Info_4:
+      Name: humvee_common
       Dependencies: {}

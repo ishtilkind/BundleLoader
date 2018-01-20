@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 924223043
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 65830414b64badd4482c1945ee903c54
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4bb96948b47ad6ca1df035de75994dde
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Left_Wheel.prefab
+Dependencies:
+- C:/Users/Igor/Documents/GitHub/BundleLoader/WebGL Bundle Loader/AssetBundles/WebGL/humvee_common
