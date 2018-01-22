@@ -5,6 +5,7 @@ using UnityEngine.Networking;
 
 public class Loader : MonoBehaviour
 {
+    public Transform spawnPoint;
     public bool debug = false;
     public Bundle[] bundles;
 
@@ -98,6 +99,7 @@ public class Loader : MonoBehaviour
             foreach (var go in gos)
             {
                 var o = Instantiate(go);
+                o.transform.position = spawnPoint.position;
                 list.Add(o);
 
             }
