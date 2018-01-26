@@ -165,7 +165,14 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114814774719128684, guid: 6e30a5c56fbe003439efb76f957096d8,
+        type: 2}
+      propertyPath: CameraMinDistance
+      value: 3.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 124182877574752138, guid: 6e30a5c56fbe003439efb76f957096d8, type: 2}
+    - {fileID: 81667830220660846, guid: 6e30a5c56fbe003439efb76f957096d8, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 6e30a5c56fbe003439efb76f957096d8, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &762223532 stripped
