@@ -9,7 +9,7 @@ public class LoaderDynamic : MonoBehaviour
 
     private void Start()
     {
-        request = UnityWebRequest.GetAssetBundle("https://unity3dcollegedownloads.blob.core.windows.net/assetbundles/StreamingAssets/Windows/level1");
+        request = UnityWebRequestAssetBundle.GetAssetBundle("https://unity3dcollegedownloads.blob.core.windows.net/assetbundles/StreamingAssets/Windows/level1");
         request.SendWebRequest();
     }
 

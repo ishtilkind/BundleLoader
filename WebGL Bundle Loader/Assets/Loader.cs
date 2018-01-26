@@ -84,7 +84,7 @@ public class Loader : MonoBehaviour
 #endif
 
         if (debug) Debug.Log(uri);
-        UnityEngine.Networking.UnityWebRequest request = UnityEngine.Networking.UnityWebRequest.GetAssetBundle(uri, 0);
+        UnityEngine.Networking.UnityWebRequest request = UnityWebRequestAssetBundle.GetAssetBundle(uri, 0);
         yield return request.SendWebRequest();
         AssetBundle bundle = DownloadHandlerAssetBundle.GetContent(request);
         if (null == bundle)
